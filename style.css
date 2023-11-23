@@ -13,6 +13,25 @@ body {
 }
 
 /* Como estilizar uma tabela */
+th.titulo {
+    text-align: center;
+    font-size: 18.45px;
+    /* Tamanho do "título" do cabeçalho da tabela */
+}
+
+td {
+    font-size: 15.55px;
+    /* Tamanho do texto da tabela */
+}
+
+tr, td, th {
+    outline: 2px solid #cbcbcc;
+    /* Contorno (ele vem antes do border) */
+    /* Adiciona as entrelinhas da tabela */
+
+    padding: 11.5px;
+}
+
 table {
     width: 601px;
     /* Largura máxima da tabela */
@@ -38,24 +57,4 @@ table {
     overflow: hidden;
     /* Overflow mais utilizados: hidden – Corta o conteúdo que ultrapassa o tamanho da DIV. scroll – Mostra as barras de rolagens, vertical e horizontal, mesmo que não seja necessário. auto – Acho essa a melhor opção porque só cria barra de rolagem quando necessário. */
     /*A propriedade overflow especifica quando o conteúdo de um elemento de nível de bloco deve ser cortado, exibido com barras de rolagem ou se transborda do elemento.*/
-
-}
-
-th.titulo {
-    text-align: center;
-    font-size: 18.45px;
-    /* Tamanho do "título" do cabeçalho da tabela */
-}
-
-td {
-    font-size: 15.55px;
-    /* Tamanho do texto da tabela */
-}
-
-tr, td, th {
-    outline: 2px solid #cbcbcc;
-    /* Contorno (ele vem antes do border) */
-    /* Adiciona as entrelinhas da tabela */
-
-    padding: 11.5px;
 }
