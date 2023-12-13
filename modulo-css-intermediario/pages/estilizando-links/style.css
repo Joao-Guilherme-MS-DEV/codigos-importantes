@@ -1,0 +1,20 @@
+a {
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    color: greenyellow;
+    box-shadow: 0px 0px 7px gray;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    background-color: blue;
+    color: gold;
+}

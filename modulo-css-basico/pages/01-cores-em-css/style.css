@@ -1,0 +1,15 @@
+.subtitulo1 {
+    color: red;
+}
+
+.subtitulo2 {
+    color: rgb(255, 0, 0);
+}
+
+.subtitulo3 {
+    color: rgba(255, 0, 0, 0.4);
+}
+
+.subtitulo4 {
+    color: #ff0000;
+}

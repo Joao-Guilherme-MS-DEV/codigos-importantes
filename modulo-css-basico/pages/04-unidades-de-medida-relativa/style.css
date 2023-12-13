@@ -1,0 +1,23 @@
+html {
+    background-color: #ccc;
+    font-size: 22px;
+}
+
+h1 {
+    background-color: brown;
+    color: aliceblue;
+    font-size: 1.75rem;
+    /* 1.75 x 22 = 38.5px */
+}
+
+.p1 {
+    background-color: aquamarine;
+    font-size: 1.5rem;
+    /* 1.5 x 22 = 33px */
+}
+
+.p2 {
+    background-color: blueviolet;
+    font-size: 85%;
+    /* 85% de 22px = 18.7px */
+}

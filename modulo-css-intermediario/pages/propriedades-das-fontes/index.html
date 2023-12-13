@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propriedades das fontes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+    <body>
+
+        <h1>Propriedades das fontes</h1>
+
+        <h4>
+            (Obs.: Todos códigos citados neste arquivo html estão sendo demonstrados no arquivo style.css dessa pasta)
+        </h4>
+
+        <main>
+            <section>
+                <p>
+                    <i>É possível mudar a fonte usando o google fonts e o site dafont</i>
+                </p>
+
+                <p><i>Obs.: Existem fontes pagas também</i></p>
+            </section>
+
+            <section>
+                <p class="sub-titulo">
+                    ∘ Passo a passo de como adicionar uma fonte do google:
+                </p>
+
+
+                <p>
+                    <span class="passos">1° Passo:</span> Pesquisar google fonts e selecionar as grossuras da fonte desejada
+                </p>
+
+                <p>
+                    <span class="passos">2° Passo:</span> Copiar e colar o <i>@import</i> da fonte para a aba style.css
+                </p>
+
+                <p>
+                    <span class="passos">3° Passo:</span> Copiar e colar a <i>especificidade</i> da fonte usando o código
+                    <i>font-family: nome da especificidade;</i>
+                </p>
+
+                <p class="exemplo">
+                    • Exemplo:
+                </p>
+
+                <p class="espacamento-entre-exemplos">
+                    <span>@import
+                        url</span>('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+                </p>
+
+                <p>
+                    html { <br>
+                    <span>font-family:</span> 'Open Sans', sans-serif; <br>
+                    <span>font-weight:</span> 500; <br>
+                    }
+                </p>
+
+            </section>
+
+            <section>
+                <p class="sub-titulo">
+                    ∘ Passo a passo de como adicionar uma fonte do site DaFont:
+                </p>
+
+                <p>
+                    <span class="passos">1° Passo:</span> Pesquisar DaFont, escolher a fonte, olhar se tem todos os grifos e baixar a fonte
+                </p>
+
+                <p>
+                    <span class="passos">2° Passo:</span> Criar uma pasta com o nome <i>fonts</i> dentro da pasta raiz da página html
+                </p>
+
+                <p>
+                    <span class="passos">3° Passo:</span> Copiar e colar a fonte baixada para a pasta <i>fonts</i>
+                </p>
+
+                <p>
+                    <span class="passos">4° Passo:</span> Seguir o eemplo a baixo
+                </p>
+
+                <p class="exemplo">
+                    • Exemplo:
+                </p>
+
+                <p>
+                    Usar o seguite código a baixo na aba style.css
+                </p>
+
+                <p class="espacamento-entre-exemplos">
+                    <span>@font-face</span> { <br>
+                        <span>font-family:</span> 'inventar o nome da fonte' ; <br>
+                        <span>src:</span> url(<i>./ caminho da fonte</i>); <br>
+                    }
+                </p>
+
+                <p>
+                    h1 { <br>
+                        <span>font-family:</span> 'nome da fonte inventada'; <br>
+                        <span>font-weight:</span> grossura da fonte (100 a 900); <br>
+                    }
+                </p>
+
+            </section>
+        </main>
+
+    </body>
+
+</html>

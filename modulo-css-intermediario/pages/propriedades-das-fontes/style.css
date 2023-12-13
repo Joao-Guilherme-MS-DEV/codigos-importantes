@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@font-face {
+    font-family: 'god-of-war';
+    src: url(./fonts/GODOFWAR.TTF), sans-serif;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    margin: 7px;
+    font-size: 18px;
+}
+
+h1 {
+    font-family: 'god-of-war';
+    font-size: 35px;
+    font-weight: 100;
+}
+
+section {
+    margin-bottom: 18px;
+}
+
+p {
+    line-height: 22px;
+    margin: 2px;
+}
+
+i {
+    font-weight: 400;
+}
+
+.sub-titulo {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.exemplo {
+    font-weight: 600;
+}
+
+span {
+    color: blue;
+    font-weight: 600;
+}
+
+span.passos {
+    color: black;
+}
+
+.espacamento-entre-exemplos {
+    margin-bottom: 12px;
+}
+

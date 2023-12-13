@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin-top: 13px;
+}
+
+ul, ol {
+    margin-bottom: 30px;
+}
+
+ul li,
+ol li {
+    padding: 20px;
+    border: 1px solid black;
+}
+
+ul {
+    list-style: url("./images/icon.png") disc inside;
+    background-color: orange;
+}
+
+ol {
+    list-style: decimal inside;
+    background-color: cyan;
+}

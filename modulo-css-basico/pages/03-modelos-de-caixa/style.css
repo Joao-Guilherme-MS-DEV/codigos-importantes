@@ -1,0 +1,42 @@
+h1 {
+    padding: 20px;
+    background-color: rgba(46, 234, 143, 0.2);
+
+    border: 10px solid greenyellow;
+}
+
+p {
+    margin: 13px;
+
+    padding: 30px;
+    background-color: aquamarine;
+
+    border: 5px solid red;
+}
+
+.destaque {
+    background-color: aquamarine;
+    border: 2px solid red;
+}
+
+span {
+    background-color: orange;
+    
+    border: 1.8px solid black;
+
+    width: 70px;
+    height: 70px;
+}
+
+.inline {
+    display: inline;
+}
+
+.block {
+    display: block;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
