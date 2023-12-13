@@ -1,0 +1,8 @@
+div ou table {
+    overflow: hidden;
+
+    /*                                 Overflows mais utilizados:                                         */
+    /* overflow: hidden; Corta o conteúdo que ultrapassa o tamanho da div                                 */
+    /* overflow: scroll; Mostra as barras de rolagens vertical e horizontal mesmo que não seja necessário */
+    /* overflow: auto; Mostra as barras de rolagens apenas quando for realmente necessário                */
+}

@@ -1,0 +1,5 @@
+tr, td, th {
+    outline: 2px solid #cbcbcbcc;
+    /* outiline: contorno do elemento (igual o border)  */
+    /* ele adiciona as entrelinha da tabela             */
+}

@@ -1,0 +1,7 @@
+table {
+    border-collapse: collapse;
+
+    /* border-collapse: [...]; Dertermina se haverá espaçamento entre as bordas da tabela.  */
+    /* border-collapse: collapse;  Não há separação entre os elementos.                     */
+    /* border-collapse: separate;  Haverá um espaçamento entre elementos.                   */
+}
